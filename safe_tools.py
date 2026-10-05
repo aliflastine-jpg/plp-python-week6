@@ -1,12 +1,11 @@
-def safe_divide(a, b):
+def safe_divide(10, 2):
     try:
         return a / b
     except ZeroDivisionError:
-        print
         return "Cannot divide by zero"
 
 
-def safe_number(text):
+def safe_number(10, 0):
     try:
         return int(text)
     except ValueError:
